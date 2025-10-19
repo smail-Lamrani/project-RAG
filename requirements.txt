@@ -1,0 +1,11 @@
+langchain
+langchain-core
+langchain-community
+pydf
+pypdf
+pymupdf
+sentence-transformers
+faiss-cpu # vectorstore
+chromadb # vectorstore
+langchain-groq
+python-dotenv

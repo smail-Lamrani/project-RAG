@@ -1,0 +1,7 @@
+Faster R-CNN became the first truly end-to-end, unified deep learning object detector, setting a new 
+standard for accuracy. 
+ 
+4. Single-Stage Object Detectors: A Focus on Speed 
+Single-stage detectors remove the region proposal step and instead perform localization and 
+classification in a single forward pass of the network, making them extremely fast and suitable for 
+real-time applications.n\n
