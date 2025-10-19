@@ -1,5 +1,5 @@
 
-### YTRAG — Yet Another Retrieval-Augmented Generator
+## YTRAG — Retrieval-Augmented Generator
 
 This repository contains a small Retrieval-Augmented Generation (RAG) prototype built with LangChain building blocks, FAISS for vector search, and Sentence-Transformers for dense embeddings. The project loads documents (PDF, TXT, CSV, DOCX, JSON, XLSX), splits and embeds them, stores vectors in a FAISS store, and offers a simple search+summarize flow using a Groq LLM wrapper (`langchain_groq`).
 
@@ -152,8 +152,7 @@ Source (src/)
 
 This repository contains a small RAG prototype that demonstrates loading documents, producing embeddings with Sentence-Transformers, storing vectors in FAISS, and using a Groq-backed LLM to summarize search results. The code is a solid starting point — follow the suggestions above to make it more robust, testable, and production-ready.
 																																						Ismail Lamrani
-																																						
-
+																																					
 # langchain explication 
 LangChain is a framework that simplifies building Retrieval-Augmented Generation (RAG) systems — applications where a large language model (LLM) answers questions using both its own knowledge and external data. In a RAG workflow, LangChain loads documents (like PDFs or websites), splits them into small text chunks, converts them into embeddings (numerical representations of meaning), and stores them in a vector database such as Chroma. When a user asks a question, LangChain retrieves the most relevant chunks from this database and injects them into the model’s prompt, so the LLM can generate an accurate, context-aware response grounded in real information instead of hallucinations.
 
@@ -161,3 +160,4 @@ LangChain is a framework that simplifies building Retrieval-Augmented Generation
 #   p r o j e c t - R A G 
  
  
+
